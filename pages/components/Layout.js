@@ -5,16 +5,10 @@ export default function Layout({ children }) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
 
-  const header = isRoot ? (
-    <h1 className='mb-8'>
+  const header = isRoot && (
+    <h1 className='text-center'>
       <Link href='/'>
         <a className='text-4xl font-black text-black no-underline'>前端控</a>
-      </Link>
-    </h1>
-  ) : (
-    <h1 className='mb-2'>
-      <Link href='/'>
-        <a className='text-2xl font-black text-black no-underline'>前端控</a>
       </Link>
     </h1>
   );
@@ -22,8 +16,15 @@ export default function Layout({ children }) {
   return (
     <div>
       <header>{header}</header>
-      <div className='max-w-screen-sm px-4 py-8 mx-auto'>
+      <div className='max-w-screen-md px-4 mx-auto'>
         <main>{children}</main>
+        {!isRoot && (
+          <p className='text-right'>
+            <Link href='/'>
+              <a className='text-red-500 font-black no-underline'>返回</a>
+            </Link>
+          </p>
+        )}
         <footer>
           © {new Date().getFullYear()}, Built with{" "}
           <a href='https://nextjs.org/'>Next.js</a> &#128293;

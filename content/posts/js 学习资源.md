@@ -1,5 +1,5 @@
 ---
-title: javascript语言
+title: js 学习资源
 date: 2020-08-07 11:54:42
 ---
 

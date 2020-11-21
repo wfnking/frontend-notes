@@ -1,5 +1,5 @@
 ---
-title: react 学习资源
+title: vue
 date: 2020-11-10
 ---
 

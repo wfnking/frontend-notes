@@ -3,6 +3,10 @@ title: js 语言特性
 date: 2020-08-07 11:54:42
 ---
 
+## 内置对象 api
+
+- JSON.stringify(data, null, 4) // 第三个参数指定缩进
+
 ## typeof 关键字
 
 ### Basic usage

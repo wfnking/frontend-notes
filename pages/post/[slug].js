@@ -2,7 +2,7 @@ import React from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import ReactMarkdown from "react-markdown/with-html";
+import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import CodeBlock from "../components/CodeBlock";
 
@@ -10,11 +10,7 @@ export default function Post({ content, frontmatter }) {
   return (
     <Layout>
       <article>
-        <ReactMarkdown
-          escapeHtml={false}
-          source={content}
-          renderers={{ code: CodeBlock }}
-        />
+        <ReactMarkdown source={content} renderers={{ code: CodeBlock }} />
       </article>
     </Layout>
   );

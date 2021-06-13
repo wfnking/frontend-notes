@@ -9,7 +9,7 @@ export default function Layout({ children }) {
   const header = isRoot && (
     <h1 className='text-center'>
       <Link href='/'>
-        <a className='text-4xl font-black text-black no-underline'>前端控</a>
+        <a className='text-4xl font-black text-black no-underline'>爱前端</a>
       </Link>
     </h1>
   );

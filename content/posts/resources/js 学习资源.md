@@ -40,7 +40,6 @@ date: 2020-08-07 11:54:42
 - [ConardLi 写 blog 的地方](https://github.com/ConardLi/ConardLi.github.io)
 - [前端技术周刊](https://www.yuque.com/awesome/fe_weekly)
 - [前端进阶](https://github.com/senntyou/blogs)
-- [woai3c 前端文章](https://github.com/woai3c/Front-end-articles)
 
 ## canvas, webGL, svg, 数据可视化
 
@@ -109,3 +108,10 @@ date: 2020-08-07 11:54:42
 - [面试造火箭，看下这些大厂原题](https://juejin.im/post/6859121743869509646)
 - [程序员如何把控自己的职业](https://coolshell.cn/articles/20977.html)
 - [强行解释一波面试造火箭](https://juejin.im/post/6844903800919031815)
+
+## 好玩的网站
+
+- (patorjk.com)[http://patorjk.com/] Create text art from words.
+- (schema.org)[https://schema.org/] schema.org is a set of extensible schemas
+  that enables webmasters to embed structured data on their web pages for use by
+  search engines and other applications.

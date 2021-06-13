@@ -18,6 +18,7 @@ date: 2020-08-07 11:54:42
 
 ## 框架原理
 
+- [一文读懂 react 实现原理](https://blog.csdn.net/tangding12/article/details/108921380#render)
 - [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
 - [Inside Fiber: in-depth overview of the new reconciliation algorithm in React](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 - [浅入浅出图解 domDIff](https://juejin.im/post/6844903592520843277)

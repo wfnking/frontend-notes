@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Layout({ children }) {
   const { pathname } = useRouter();
@@ -15,6 +16,9 @@ export default function Layout({ children }) {
 
   return (
     <div>
+      <Head>
+        <title>First Post</title>
+      </Head>
       <header>{header}</header>
       <div className='max-w-screen-md px-4 mx-auto'>
         <main>{children}</main>
